@@ -1,9 +1,7 @@
 #!/bin/bash
-read -p "Enter a number: " num
+read -p "Enter a string: " str
 
-if [ $((num % 2)) -eq 0 ]
-then
-    echo "The number is Even"
-else
-    echo "The number is Odd"
-fi
+echo "${str^^}"
+
+echo "${str,,}"
+
