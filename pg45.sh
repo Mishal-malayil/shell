@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "Enter a string: " str
 
-echo "${str^^}"
+echo "Uppercase :${str^^}"
 
-echo "${str,,}"
+echo "Lowercase :${str,,}"
 
