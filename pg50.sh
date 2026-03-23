@@ -16,6 +16,7 @@ do
     10) echo "October" ;;
     11) echo "November" ;;
     12) echo "December" ;;
+    0) break ;;
     *) echo "Invalid" ;;
     esac
 done
