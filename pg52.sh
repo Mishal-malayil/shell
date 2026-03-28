@@ -1,8 +1,6 @@
 echo "Enter decimal number:"
 read n
-
 bin=""
-
 while [ $n -gt 0 ]
 do
     r=$((n % 2))
